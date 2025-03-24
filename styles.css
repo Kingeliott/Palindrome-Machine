@@ -1,0 +1,91 @@
+body {
+    background-color:rgba(0, 0, 139, 0.882)
+  }
+  
+  
+  #main-box {
+    border: 3px solid black;
+    height: 200px;
+    margin: 40px auto;
+    justify-content:center;
+    width: 550px;
+    overflow:hidden;
+    border-radius: 7px;
+    background-color:darkorange;
+
+  
+  }
+  
+  #title {
+    text-align: center;
+    text-transform:uppercase;
+    font-size:50px;
+    font-style:bold;
+    font-family:'Courier New', Courier, monospace;
+    color:whitesmoke;
+  }
+  
+  #text-input {
+    margin: auto;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    top:45%;
+    left: 555px;
+  
+  }
+  #check-btn {
+      margin: auto;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    top:50%;
+    left: 615px;
+  }
+  
+  #second-text {
+    text-align: center;
+    font-size:30px;
+    font-style:bold;
+    font-family:'Courier New', Courier, monospace;
+    color:whitesmoke;
+    border: 3px solid black;
+    border-radius:6px;
+    margin: 20px 200px 20px 20px;
+    width:650px;
+    align-items: center;
+    left:800px;
+    justify-content: center;
+    background-color:darkorange;
+  }
+
+  #box2 {
+    justify-content: center;
+    position: absolute;
+    left: 50vh;
+    padding: 5px 5px 5px 5px ;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+
+    #result {
+        display: block;
+        text-align: center; /* Centers text inside the div */
+        font-size: 25px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        color: whitesmoke;
+    
+        width: fit-content; /* Makes width adjust to content */
+        max-width: 300px; /* Prevents it from stretching too wide */
+        
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    
+        padding: 10px 20px;
+        margin: 20px auto; /* Centers the box itself */
+    }
+    
